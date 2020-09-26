@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+
+body  {
+    background-image: url("./assets/bg1.jpg");
+    background-color: #b4a1a1;
+    
+  }
+  .footer-bottom{
+top:0;
+  }
