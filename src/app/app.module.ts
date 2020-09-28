@@ -15,6 +15,9 @@ import { RiceComponent } from './rice/rice.component';
 import { PlusesComponent } from './pluses/pluses.component';
 import { JuteComponent } from './jute/jute.component';
 import { AgriexpertComponent } from './agriexpert/agriexpert.component';
+import { FarmercornerComponent } from './farmercorner/farmercorner.component';
+import { TechnicalComponent } from './technical/technical.component';
+import { CroplossComponent } from './croploss/croploss.component';
 
 
 
@@ -33,7 +36,11 @@ import { AgriexpertComponent } from './agriexpert/agriexpert.component';
     RiceComponent,
     PlusesComponent,
     JuteComponent,
-    AgriexpertComponent
+    AgriexpertComponent,
+    FarmercornerComponent,
+    TechnicalComponent,
+    CroplossComponent,
+    
     
     
   ],

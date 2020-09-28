@@ -9,6 +9,9 @@ import { WheatComponent } from './wheat/wheat.component';
 import { PlusesComponent } from './pluses/pluses.component';
 import { JuteComponent } from './jute/jute.component';
 import { AgriexpertComponent } from './agriexpert/agriexpert.component';
+import { FarmercornerComponent } from './farmercorner/farmercorner.component';
+import { TechnicalComponent } from './technical/technical.component';
+import { CroplossComponent } from './croploss/croploss.component';
 
 
 
@@ -22,7 +25,11 @@ export const router: Routes = [
   {path:'wheat',component:WheatComponent},
   {path:'pulses',component:PlusesComponent},
   {path:'jute',component:JuteComponent},
-  {path:'agri',component:AgriexpertComponent}
+  {path:'agri',component:AgriexpertComponent},
+  {path:'farmer',component:FarmercornerComponent},
+  {path:'tech',component:TechnicalComponent},
+  {path:'loss',component:CroplossComponent}
+
   
   
  

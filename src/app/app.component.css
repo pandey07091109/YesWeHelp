@@ -1,0 +1,16 @@
+.img-rounded
+ {
+     border-radius: 3rem;
+     border: 3px;
+
+}
+#solid {
+    border-style: solid;
+    border-radius: 2rem;
+    
+}
+#border {
+    border-style: solid;
+    
+    
+}

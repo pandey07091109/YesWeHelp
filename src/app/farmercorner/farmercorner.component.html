@@ -1,0 +1,64 @@
+<div class="container-fluid">
+    <div class="d-flex justify-content-center" style="padding-top: 10px;">
+   <h4>
+    Register for New Farmer User
+   </h4>
+   </div>
+   <div class="container-fluid" style="padding-bottom: 200px;">
+    <form [formGroup]="angForm" novalidate class="border p-12 mb-12 bg-light text-dark"  style="padding: 10px;" >
+        <h3 style="color: green;">--->Farmer Details</h3>
+  
+  <div class="row">
+      <div class="col-6">
+          
+        <div class="form-group" style="text-align: left;">
+            <label >FullName*:</label><br>
+            <input class="form-control" placeholder="Enter Farmer Name..." formControlName="name" type="text" >
+           </div>
+           <div *ngIf="angForm.controls['name'].invalid &&(angForm.controls['name'].dirty || angForm.controls['name'].touched)" class="alert alert-danger">
+              <div *ngIf="angForm.controls['name'].errors.required">
+               Name is required.
+             </div>
+           </div>
+           <div class="form-group" style="text-align: left;">
+            <label >RelativeName*:</label><br>
+            <input class="form-control" placeholder="Enter Father/Husband Name..." formControlName="Realtivename" type="text" >
+           </div>
+           <div *ngIf="angForm.controls['Realtivename'].invalid &&(angForm.controls['Realtivename'].dirty || angForm.controls['Realtivename'].touched)" class="alert alert-danger">
+              <div *ngIf="angForm.controls['Realtivename'].errors.required">
+               Relative Name is required.
+             </div>
+           </div>
+           <div class="col-3" style="text-align: left;">
+            <label >Age*:</label><br>
+            <input class="form-control" placeholder="Enter Age"  formControlName="age" type="text" >
+           </div>
+           <div *ngIf="angForm.controls['age'].invalid &&(angForm.controls['age'].dirty || angForm.controls['age'].touched)" class="alert alert-danger">
+              <div *ngIf="angForm.controls['age'].errors.required">
+               Age is required.
+             </div>
+           </div>
+          
+      </div>
+      <div class="col-6">
+         
+        <div class="form-group" style="text-align: left;">
+            <label > Relationship*:</label><br>
+            <input class="form-control" placeholder="Enter Farmer Name..." formControlName="rs" type="text" >
+           </div>
+           <div *ngIf="angForm.controls['rs'].invalid &&(angForm.controls['rs'].dirty || angForm.controls['rs'].touched)" class="alert alert-danger">
+              <div *ngIf="angForm.controls['rs'].errors.required">
+               Relationship is required.
+             </div>
+            </div>
+            <div class="form-group" style="text-align: left;">
+                <label > Mobile Number*:</label><br>
+                <input class="form-control" placeholder="Enter Mobile Number...." formControlName="mn" type="text" >
+               </div>
+               <div *ngIf="angForm.controls['mn'].invalid &&(angForm.controls['mn'].dirty || angForm.controls['mn'].touched)" class="alert alert-danger">
+                  <div *ngIf="angForm.controls['mn'].errors.required">
+                   MobileNo. is required.
+                 </div>
+                </div>
+    </div>
+  </div>

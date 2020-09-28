@@ -1,0 +1,15 @@
+#solid {
+    border-style: solid;
+    border-radius: 1rem;
+    
+}
+
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:350px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
